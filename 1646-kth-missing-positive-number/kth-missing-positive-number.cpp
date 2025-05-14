@@ -6,11 +6,11 @@ public:
 
         for(int i = 0 ;i<arr.size();i++,count++){
             if(count==arr[i]){
-                cout<<"count inside if="<<count<<endl;
+                // cout<<"count inside if="<<count<<endl;
                 continue;
             }
             while(count!=arr[i]){
-                cout<<"count inside while "<<count<<endl;
+                // cout<<"count inside while "<<count<<endl;
                 if(k==0) break;
                 temp.push_back(count);
                 count++;
